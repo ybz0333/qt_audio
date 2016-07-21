@@ -1,0 +1,58 @@
+﻿Build started 2016/7/19 11:10:54.
+     1>Project "E:\code_experiment\Cpp_code_experiment\try_qt_audio\qt_audio1.1\SoundProcessorTest\SoundProcessorTest.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\SoundProcessorTest.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\SoundProcessorTest.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp SoundProcessor.cpp
+         SoundProcessor.cpp
+         main.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\SoundProcessorTest.exe.embed.manifest.res" Debug\SoundProcessorTest_manifest.rc 
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code_experiment\Cpp_code_experiment\try_qt_audio\qt_audio1.1\qt_audio\Debug\SoundProcessorTest.exe" /INCREMENTAL /NOLOGO SoundTouchD.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SoundProcessorTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\code_experiment\Cpp_code_experiment\try_qt_audio\qt_audio1.1\qt_audio\Debug\SoundProcessorTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code_experiment\Cpp_code_experiment\try_qt_audio\qt_audio1.1\qt_audio\Debug\SoundProcessorTest.lib" /MACHINE:X86 Debug\SoundProcessorTest.exe.embed.manifest.res
+         Debug\main.obj
+         Debug\SoundProcessor.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>SoundTouchD.lib(AAFilter.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SoundTouchD.lib(AAFilter.obj)' or at 'E:\code_experiment\Cpp_code_experiment\try_qt_audio\qt_audio1.1\qt_audio\Debug\vc100.pdb'; linking object as if no debug info
+     1>SoundTouchD.lib(cpu_detect_x86.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SoundTouchD.lib(cpu_detect_x86.obj)' or at 'E:\code_experiment\Cpp_code_experiment\try_qt_audio\qt_audio1.1\qt_audio\Debug\vc100.pdb'; linking object as if no debug info
+     1>SoundTouchD.lib(FIFOSampleBuffer.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SoundTouchD.lib(FIFOSampleBuffer.obj)' or at 'E:\code_experiment\Cpp_code_experiment\try_qt_audio\qt_audio1.1\qt_audio\Debug\vc100.pdb'; linking object as if no debug info
+     1>SoundTouchD.lib(FIRFilter.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SoundTouchD.lib(FIRFilter.obj)' or at 'E:\code_experiment\Cpp_code_experiment\try_qt_audio\qt_audio1.1\qt_audio\Debug\vc100.pdb'; linking object as if no debug info
+     1>SoundTouchD.lib(InterpolateCubic.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SoundTouchD.lib(InterpolateCubic.obj)' or at 'E:\code_experiment\Cpp_code_experiment\try_qt_audio\qt_audio1.1\qt_audio\Debug\vc100.pdb'; linking object as if no debug info
+     1>SoundTouchD.lib(InterpolateLinear.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SoundTouchD.lib(InterpolateLinear.obj)' or at 'E:\code_experiment\Cpp_code_experiment\try_qt_audio\qt_audio1.1\qt_audio\Debug\vc100.pdb'; linking object as if no debug info
+     1>SoundTouchD.lib(InterpolateShannon.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SoundTouchD.lib(InterpolateShannon.obj)' or at 'E:\code_experiment\Cpp_code_experiment\try_qt_audio\qt_audio1.1\qt_audio\Debug\vc100.pdb'; linking object as if no debug info
+     1>SoundTouchD.lib(RateTransposer.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SoundTouchD.lib(RateTransposer.obj)' or at 'E:\code_experiment\Cpp_code_experiment\try_qt_audio\qt_audio1.1\qt_audio\Debug\vc100.pdb'; linking object as if no debug info
+     1>SoundTouchD.lib(SoundTouch.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SoundTouchD.lib(SoundTouch.obj)' or at 'E:\code_experiment\Cpp_code_experiment\try_qt_audio\qt_audio1.1\qt_audio\Debug\vc100.pdb'; linking object as if no debug info
+     1>SoundTouchD.lib(sse_optimized.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SoundTouchD.lib(sse_optimized.obj)' or at 'E:\code_experiment\Cpp_code_experiment\try_qt_audio\qt_audio1.1\qt_audio\Debug\vc100.pdb'; linking object as if no debug info
+     1>SoundTouchD.lib(TDStretch.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SoundTouchD.lib(TDStretch.obj)' or at 'E:\code_experiment\Cpp_code_experiment\try_qt_audio\qt_audio1.1\qt_audio\Debug\vc100.pdb'; linking object as if no debug info
+       Manifest:
+         Deleting file "Debug\SoundProcessorTest.exe.embed.manifest".
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\SoundProcessorTest.exe.embed.manifest" /manifest Debug\SoundProcessorTest.exe.intermediate.manifest
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\SoundProcessorTest.exe.embed.manifest.res" Debug\SoundProcessorTest_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code_experiment\Cpp_code_experiment\try_qt_audio\qt_audio1.1\qt_audio\Debug\SoundProcessorTest.exe" /INCREMENTAL /NOLOGO SoundTouchD.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SoundProcessorTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\code_experiment\Cpp_code_experiment\try_qt_audio\qt_audio1.1\qt_audio\Debug\SoundProcessorTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code_experiment\Cpp_code_experiment\try_qt_audio\qt_audio1.1\qt_audio\Debug\SoundProcessorTest.lib" /MACHINE:X86 Debug\SoundProcessorTest.exe.embed.manifest.res
+         Debug\main.obj
+         Debug\SoundProcessor.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>SoundTouchD.lib(AAFilter.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SoundTouchD.lib(AAFilter.obj)' or at 'E:\code_experiment\Cpp_code_experiment\try_qt_audio\qt_audio1.1\qt_audio\Debug\vc100.pdb'; linking object as if no debug info
+     1>SoundTouchD.lib(cpu_detect_x86.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SoundTouchD.lib(cpu_detect_x86.obj)' or at 'E:\code_experiment\Cpp_code_experiment\try_qt_audio\qt_audio1.1\qt_audio\Debug\vc100.pdb'; linking object as if no debug info
+     1>SoundTouchD.lib(FIFOSampleBuffer.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SoundTouchD.lib(FIFOSampleBuffer.obj)' or at 'E:\code_experiment\Cpp_code_experiment\try_qt_audio\qt_audio1.1\qt_audio\Debug\vc100.pdb'; linking object as if no debug info
+     1>SoundTouchD.lib(FIRFilter.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SoundTouchD.lib(FIRFilter.obj)' or at 'E:\code_experiment\Cpp_code_experiment\try_qt_audio\qt_audio1.1\qt_audio\Debug\vc100.pdb'; linking object as if no debug info
+     1>SoundTouchD.lib(InterpolateCubic.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SoundTouchD.lib(InterpolateCubic.obj)' or at 'E:\code_experiment\Cpp_code_experiment\try_qt_audio\qt_audio1.1\qt_audio\Debug\vc100.pdb'; linking object as if no debug info
+     1>SoundTouchD.lib(InterpolateLinear.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SoundTouchD.lib(InterpolateLinear.obj)' or at 'E:\code_experiment\Cpp_code_experiment\try_qt_audio\qt_audio1.1\qt_audio\Debug\vc100.pdb'; linking object as if no debug info
+     1>SoundTouchD.lib(InterpolateShannon.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SoundTouchD.lib(InterpolateShannon.obj)' or at 'E:\code_experiment\Cpp_code_experiment\try_qt_audio\qt_audio1.1\qt_audio\Debug\vc100.pdb'; linking object as if no debug info
+     1>SoundTouchD.lib(RateTransposer.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SoundTouchD.lib(RateTransposer.obj)' or at 'E:\code_experiment\Cpp_code_experiment\try_qt_audio\qt_audio1.1\qt_audio\Debug\vc100.pdb'; linking object as if no debug info
+     1>SoundTouchD.lib(SoundTouch.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SoundTouchD.lib(SoundTouch.obj)' or at 'E:\code_experiment\Cpp_code_experiment\try_qt_audio\qt_audio1.1\qt_audio\Debug\vc100.pdb'; linking object as if no debug info
+     1>SoundTouchD.lib(sse_optimized.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SoundTouchD.lib(sse_optimized.obj)' or at 'E:\code_experiment\Cpp_code_experiment\try_qt_audio\qt_audio1.1\qt_audio\Debug\vc100.pdb'; linking object as if no debug info
+     1>SoundTouchD.lib(TDStretch.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SoundTouchD.lib(TDStretch.obj)' or at 'E:\code_experiment\Cpp_code_experiment\try_qt_audio\qt_audio1.1\qt_audio\Debug\vc100.pdb'; linking object as if no debug info
+         SoundProcessorTest.vcxproj -> E:\code_experiment\Cpp_code_experiment\try_qt_audio\qt_audio1.1\qt_audio\Debug\SoundProcessorTest.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\SoundProcessorTest.unsuccessfulbuild".
+         Touching "Debug\SoundProcessorTest.lastbuildstate".
+     1>Done Building Project "E:\code_experiment\Cpp_code_experiment\try_qt_audio\qt_audio1.1\SoundProcessorTest\SoundProcessorTest.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.45
