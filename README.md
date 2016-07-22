@@ -11,4 +11,5 @@
 ### 程序结构：
 - 这个小程序结构很简单。对音频的处理使用了Qt中的QAudioInput、QAudioOutput类，配合QByteArray类（这里起缓冲区的作用）。
 - 变音部分使用了SoundTouch库。这个库可以实现声音数据的变调、变速。底层应该是用了频谱搬移。
+- Qt的音频处理部分直接参考了这个博客：[http://blog.csdn.net/jdh99/article/details/39204129](http://blog.csdn.net/jdh99/article/details/39204129)
 - 使用SoundTouch库时发现一个问题，它的receiveSamples函数是异步处理的。即放入的音频数据不是马上就能处理好取出的，而是积累到一定长度再处理、返回，所以receiveSamples有时取不到数据，有时能取到比刚刚放入的数据更长的结果数据。
